@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "present": "npx mdx-deck ./presentations/example-deck.mdx"
+    "present": "npx mdx-deck ./presentations/example-deck.mdx",
+    "build": "npx mdx-deck build ./presentations/example-deck.mdx"
   },
   "dependencies": {
     "@emotion/core": "^10.0.22",

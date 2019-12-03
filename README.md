@@ -2,6 +2,8 @@
 
 Status: Works, let's see where we can get to.
 
+Preview: https://nkuehn.github.io/mdx-deck-layout-proportional/public/ (build simply committed here)
+
 ## Goal:
 
 - Be able to work with a "real" designer to get perfect slide design, esp. for the basic building blocks (footer / title / tables etc)
