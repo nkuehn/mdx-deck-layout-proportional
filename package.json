@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "present": "npx mdx-deck ./presentations/example-deck.mdx",
-    "build": "npx mdx-deck build ./presentations/example-deck.mdx"
+    "build": "rm -rf docs && npx mdx-deck build ./presentations/example-deck.mdx && mv public docs"
   },
   "dependencies": {
     "@emotion/core": "^10.0.22",
