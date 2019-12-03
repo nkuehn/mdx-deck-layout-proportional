@@ -2,7 +2,7 @@
 
 Status: Works, let's see where we can get to.
 
-Preview: https://nkuehn.github.io/mdx-deck-layout-proportional/public/ (build simply committed here)
+Preview: https://nkuehn.github.io/mdx-deck-layout-proportional/ (build simply committed here, only first slide available atm)
 
 ## Goal:
 
