@@ -1,0 +1,14 @@
+{
+  "name": "mdx-deck-theme-proportional",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "present": "npx mdx-deck ./presentations/example-deck.mdx"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "^10.0.23",
+    "mdx-deck": "^3.0.13"
+  },
+  "devDependencies": {}
+}
