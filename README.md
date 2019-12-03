@@ -24,6 +24,7 @@ Preview: https://nkuehn.github.io/mdx-deck-layout-proportional/public/ (build si
 
 # Issues:
 
+1. For whatever dependency hell reason I cannot add gatsby as a dependency together with the gatsby-theme-mdx-deck, so it's not possible to run it based on gatsby (e.g. for the path prefix)
 1. see "hacks" above, would be nice to either have control over the Wrapper have a wrapper that does no own CSS (in this case the height and width)
 1. Overview Mode: Providing an own `Provider` is advertised to be able to inject own central formatting like numbering etc, but Overview and Presenter mode is _inside_ the Provider content and not around it, so the visual effect is weird and overview breaks the aspect ratio.
    - In other words: Since `Slide` cannot be centrally overriden, but only styled and I don't want to have to put a Layout wrapper into every single slide in the MDX, I use `Provider` for common layout and content. Hence - I believe - Overview and Presenter Mode should be _around_ the Provider component or there should be a documented way to provide an own `Slide` component (assuming that doesn't break all the things)

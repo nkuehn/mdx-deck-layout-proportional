@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "present": "npx mdx-deck ./presentations/example-deck.mdx",
-    "build": "rm -rf docs && npx mdx-deck build ./presentations/example-deck.mdx && mv public docs"
+    "present": "npx mdx-deck ./decks/example-deck.mdx",
+    "build": "rm -rf docs && npx mdx-deck build ./decks/example-deck.mdx && mv public docs",
+    "present:gatsby": "npx gatsby clean && npx gatsby develop",
+    "build:gatsby": "npx gatsby clean && npx gatsby build --prefix-paths && mv public docs"
   },
   "dependencies": {
     "@emotion/core": "^10.0.22",
     "@emotion/styled": "^10.0.23",
-    "mdx-deck": "^3.0.13"
+    "gatsby-theme-mdx-deck": "^3.0.13",
+    "mdx-deck": "^3.0.13",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gatsby-cli": "^2.8.15"
+  }
 }
