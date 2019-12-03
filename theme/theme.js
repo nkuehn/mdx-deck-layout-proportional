@@ -6,6 +6,7 @@ import components from "./components";
 export default {
   Provider,
   components,
+  aspectRatio: 16 / 9, // this is the "official" way to fix the aspect ratio, but it's JS based and flickers more - here for explaining it and for exploration / testing
   googleFont:
     "https://fonts.googleapis.com/css?family=Roboto+Mono:400,500|Roboto:400,400i,500,700&display=swap&subset=latin-ext",
   fonts: {
